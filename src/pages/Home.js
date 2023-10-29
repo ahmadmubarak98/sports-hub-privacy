@@ -3,14 +3,16 @@ import React from "react";
 export default function Home() {
   return (
     <header className="App-header">
-      <img
-        src={"/logo.jpeg"}
-        className="App-logo"
-        alt="logo"
-        style={{
-          borderRadius: 20,
-        }}
-      />
+    <a href="/privacy-policy">
+  <img
+    src={"/logo.jpeg"}
+    className="App-logo"
+    alt="logo"
+    style={{
+      borderRadius: 20,
+    }}
+  />
+</a>
       <br />
       <p className="App-link">
         <strong>Support Phone: </strong>

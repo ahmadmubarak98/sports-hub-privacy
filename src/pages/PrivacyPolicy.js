@@ -2,7 +2,8 @@ import React from "react";
 
 export default function PrivacyPolicy() {
   return (
-    <header className="App-header">
+    <header className="App-header"> 
+     <a href="/">
       <img
         src={"/logo.jpeg"}
         className="App-logo"
@@ -13,6 +14,7 @@ export default function PrivacyPolicy() {
           marginBottom: 100,
         }}
       />
+      </a>
       <h1>Privacy policy</h1>
       Last update date: July 1, 2021
       <br />
